@@ -30,6 +30,7 @@ To start the notebook, execute the following commands (you only need to run `cms
     cd CMSSW_9_0_0_pre6/src
     cmsenv
     git clone https://github.com/jmduarte/scientific-python-hats
+    setpkgs -a cuda8.0
     hostname
     jupyter notebook --no-browser --port=88<ID> --ip='*'
     
